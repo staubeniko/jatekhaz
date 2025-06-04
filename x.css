@@ -1,0 +1,372 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 215, 192);
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.first{
+    background-color: rgb(235, 215, 192);
+    /*display: flex;*/
+}
+
+.menu {
+    width: 100%;
+    font-family: cursive;
+    display: flex;   /*!!!!!!!!!!!!!!!!!!!!!!!!*/
+    text-align: center;
+    justify-content: center;    /*3 gomb emiatt van az oldal közepén*/
+
+}
+
+
+
+
+
+.kep{
+    text-align: center;
+
+
+
+}
+
+.kep img{
+    width: 300px; /* vagy pl. 50%, 20vw stb. */
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ez kérdéses kell e*/
+.kezdolap, .galeria, .elerhetosegx, .szolgaltatasok{
+    padding-left: 10px;
+    padding: 10px;
+
+}
+
+.bkezd{
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: rgb(2, 101, 2);
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.bkezd:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.kozepe{
+    background-image: linear-gradient(rgb(235, 215, 192),rgb(205, 238, 164));
+    height: auto;
+    padding-top: 20px;
+    color: rgb(2, 101, 2);
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: -1px; /*? kell*/
+}
+
+
+
+h2{
+    font-weight: normal;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+}
+
+
+h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    padding-top: 20px;
+
+}
+
+#moka{
+    font-weight: bold;
+}
+
+.alja{
+    background-color: rgb(235, 215, 192);
+    font-family: cursive;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 15px;
+    
+}
+
+h3{
+    font-weight: normal;
+    padding-top: 0px;
+    height: 100%;
+    margin: 1px;
+    padding: 0;
+    color: rgb(2, 101, 2);
+    font-family: cursive;
+}
+
+
+.szabalyzat{
+    background-color: transparent;
+    border: transparent;
+    font-size: 10px;
+    color: rgb(2, 101, 2);
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+
+.wave-divider {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background: transparent;
+    background-color: rgb(205, 238, 164); /* <- AZONOS az .alja háttérszínével! */
+}
+
+.wave-divider svg {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
+
+/*elérhetőség*/
+
+.elerheto{
+    margin: 10%;
+    margin-top: 5%;
+    background-color: rgb(205, 238, 164);
+    text-align: center, justify;
+    padding: 0px;
+    padding-left: 20px;
+    color: rgb(2, 101, 2);
+    font-family: cursive;
+    border-radius: 50px;
+}
+
+.elerhetoseg, #elerhetoseg{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.elerhetoseg22{
+    padding-bottom: 220px;
+}
+
+.elerhetoseg2{
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+
+
+}
+
+.wave-dividerr {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background: transparent;
+    background-color: rgb(205, 238, 164); /* <- AZONOS az .alja háttérszínével! */
+
+}
+
+.wave-dividerr svg {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+svg {
+    display: block;         /*hullám és alja között ez tünteti el a kis csikot*/
+}
+
+
+.alja2{
+    background-color: rgb(205, 238, 164);
+    font-family: cursive;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 15px;
+    
+}
+
+#cim{
+    padding-left: 130px;
+    color:rgb(2, 101, 2);
+}
+
+.keret{
+    background-color: rgb(176, 220, 124);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+
+
+
+}
+
+.nyitva{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    
+}
+
+.nap{
+    margin-left: 30px;
+}
+
+/*
+.wave-divider3{
+    /*background-color: black;*/              /*hullám feletti*/
+
+
+.alja3{
+    background-color: rgb(176, 220, 124);
+    font-family: cursive;
+}
+
+
+.kiscim{
+    display: flex;
+}
+
+.nemtom{
+    padding-left: 110px;
+    font-family: cursive;
+}
+
+.kozepe3{
+    font-family: cursive;
+    color:rgb(2, 101, 2);
+}
+
+#nyitva{
+text-decoration: underline;
+}
+
+#a{
+    font-size: 15px;
+}
+
+
+.szuli{
+    display: flex;
+    /*background-color: blueviolet;*/
+    margin: 0;
+    padding: 0;
+}
+
+#szuszu{
+    /*background-color: aqua;*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.szulikep{
+    width: 200px; /* vagy pl. 50%, 20vw stb. */
+    height: auto;
+   /* background-color: blue;*/
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.alja3{
+    background-color: rgb(176, 220, 124);
+    font-family: cursive;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+.second{
+    text-align: center;
+}
+
+
+.gorg {
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 101, 2);       /* sötétebb zöld háttér */
+    border: 2px solid rgb(0, 70, 0);        /* sötétzöld keret */
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.gorg:hover {
+    background-color: lime;                /* neon zöld (világos) */
+}
+
+
+
+
+/*
+
+* {
+    outline: 1px solid red;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+.logoimg{
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
