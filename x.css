@@ -89,7 +89,15 @@ html {
     color: rgb(2, 101, 2);
     font-family: cursive;
     text-align: center;
-    margin-bottom: -1px; /*? kell*/
+    padding-bottom: 300px;              /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!delete*/
+
+
+}
+
+.xx{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto; 
 }
 
 
@@ -122,6 +130,9 @@ h1{
     text-align: center;
     font-size: 10px;
     padding-top: 15px;
+    margin-bottom: 10px;
+
+
     
 }
 
@@ -143,6 +154,8 @@ h3{
     color: rgb(2, 101, 2);
     font-family: cursive;
     text-decoration: underline;
+    padding-bottom: 10px;
+
 }
 
 
@@ -257,7 +270,7 @@ svg {
 
 /*
 .wave-divider3{
-    /*background-color: black;*/              /*hullám feletti*/
+    background-color: black;              /*hullám feletti*/
 
 
 .alja3{
@@ -369,4 +382,55 @@ text-decoration: underline;
 .logoimg{
     margin-top: -80px;
     margin-bottom: -80px;
+}
+
+
+
+.wave-dividerrr {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background: transparent;
+    background-color: rgb(235, 215, 192); /* <- AZONOS az .alja háttérszínével! */
+
+}
+
+.wave-dividerrr svg {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.middle{
+    display: flex;
+}
+
+
+.onepic:hover{
+    cursor: pointer;
+}
+
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  #overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 0 15px white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  body.overlay-active {
+    overflow: hidden;
 }
