@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Pacifico', cursive;
+}
+
 body, html {
     font-family: cursive;
 }
@@ -259,8 +263,9 @@ svg {
 }
 
 #cim{
-    padding-left: auto;
+
     color:rgb(2, 101, 2);
+    text-align: center;
 }
 
 .keret{
@@ -274,14 +279,20 @@ svg {
 
 .nyitva{
     display: flex;
-    margin-left: 200px;
+    text-align: left;
     margin-bottom: 10px;
+    align-items: center;
+    gap: 20px; /* térköz a gyerekek között */
+    justify-content: flex-start;
+    font-family: 'Pacifico', cursive; /* ha ezt használod globálisan */
+
+
     
 }
-
-.nap{
-    margin-left: 30px;
+.ora, .nap {
+    text-align: center;
 }
+
 
 /*
 .wave-divider3{
@@ -295,11 +306,10 @@ svg {
 
 
 .kiscim{
-    display: flex;
+    text-decoration: underline;
 }
 
 .nemtom{
-    padding-left: 110px;
     font-family: cursive;
 }
 
@@ -314,12 +324,22 @@ svg {
 }
 
 #nyitva{
-text-decoration: underline;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
 }
+
+
 
 #a{
     font-size: 15px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
 }
+
+
 
 
 .szuli{
@@ -515,3 +535,11 @@ body {
     }
 }   
 
+
+
+@media (min-width: 769px) {
+    .kozepe3 {
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  }
