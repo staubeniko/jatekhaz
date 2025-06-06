@@ -35,7 +35,8 @@ html {
 }
 
 .kep img{
-    width: 300px; /* vagy pl. 50%, 20vw stb. */
+    width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
@@ -70,7 +71,8 @@ html {
 .bkezd{
     background-color: transparent;
     border: transparent;
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 1.2em;
     color: rgb(2, 101, 2);
     font-family: cursive;
     text-decoration: underline;
@@ -403,6 +405,9 @@ text-decoration: underline;
 
 .middle{
     display: flex;
+    flex-wrap: wrap;      /* hogy törhessen sorokat */
+    justify-content: center;
+    gap: 10px;
 }
 
 
@@ -433,4 +438,33 @@ text-decoration: underline;
   
   body.overlay-active {
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .kep img {
+      max-width: 90vw;
+    }
+  
+    .bkezd {
+      font-size: 16px;
+    }
+  
+    .logoimg {
+      width: 80%;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }
