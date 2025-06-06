@@ -407,6 +407,7 @@ text-decoration: underline;
 .logoimg{
     margin-top: -80px;
     margin-bottom: -80px;
+    justify-content: center;
 }
 
 
@@ -513,5 +514,4 @@ body {
         padding-right: 10px;
     }
 }   
-
 
