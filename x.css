@@ -25,15 +25,6 @@ html {
 
 
 
-
-
-.kep{
-    text-align: center;
-
-
-
-}
-
 .kep img{
     width: 100%;
     max-width: 300px;
@@ -503,3 +494,18 @@ body {
         font-size: 16px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .xx {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}   
+
+
