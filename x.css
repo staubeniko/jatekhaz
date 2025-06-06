@@ -96,11 +96,17 @@ html {
 
 }
 
-.xx{
-    width: 1200px;
+.xx {
+    width: 100%;
+    max-width: 1200px;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
 }
+
+
 
 
 
@@ -109,16 +115,25 @@ h2{
     padding-left: 130px;
     padding-right: 130px;
     padding-bottom: 30px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 
 h2, h3, p {
     margin-top: 0;
     margin-bottom: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 h1{
     padding-top: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 
 }
 
@@ -146,6 +161,9 @@ h3{
     padding: 0;
     color: rgb(2, 101, 2);
     font-family: cursive;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 
@@ -250,13 +268,11 @@ svg {
 
 .keret{
     background-color: rgb(176, 220, 124);
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 80px;
-    border-radius: 50px;
-
-
-
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .nyitva{
@@ -293,6 +309,11 @@ svg {
 .kozepe3{
     font-family: cursive;
     color:rgb(2, 101, 2);
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
 }
 
 #nyitva{
@@ -341,6 +362,11 @@ text-decoration: underline;
 
 .second{
     text-align: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
 }
 
 
@@ -442,24 +468,19 @@ text-decoration: underline;
 
 @media (max-width: 768px) {
     .menu {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: row;         /* egymás mellett maradnak */
+        flex-wrap: wrap;             /* ha nem fér ki, sort tör */
+        justify-content: center;     /* középre igazítás */
+        gap: 10px;                   /* kis térköz */
+        padding: 10px;
     }
-  
-    .kep img {
-      max-width: 90vw;
-    }
-  
+
     .bkezd {
-      font-size: 16px;
+        font-size: 16px;             /* kisebb betűméret mobilon */
+        padding: 5px 10px;
     }
-  
-    .logoimg {
-      width: 80%;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
+}
+
   
 * {
   box-sizing: border-box;
@@ -467,4 +488,18 @@ text-decoration: underline;
 
 body {
   overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .keret {
+        margin: 10px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .second, .kozepe3 {
+        padding: 10px;
+        font-size: 16px;
+    }
 }
