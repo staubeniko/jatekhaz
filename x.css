@@ -3,11 +3,15 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: rgb(235, 215, 192);
-
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
+body, html {
+    font-family: cursive;
+}
 
 .first{
     background-color: rgb(235, 215, 192);
@@ -24,13 +28,15 @@ html {
 }
 
 
-
 .kep img{
     width: 100%;
     max-width: 300px;
     height: auto;
 }
 
+.kep{
+    text-align: center;
+}
 
 
 
@@ -253,7 +259,7 @@ svg {
 }
 
 #cim{
-    padding-left: 130px;
+    padding-left: auto;
     color:rgb(2, 101, 2);
 }
 
