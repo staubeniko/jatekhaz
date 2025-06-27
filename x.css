@@ -377,6 +377,10 @@ svg {
     margin-top: 0;
 }
 
+.alja2{                                                            /*bálint???????*/
+    background-color:rgb(176, 220, 124);
+}
+
 .second{
     text-align: center;
     padding: 20px;
@@ -404,22 +408,6 @@ svg {
 .gorg:hover {
     background-color: lime;                /* neon zöld (világos) */
 }
-
-
-
-
-/*
-
-* {
-    outline: 1px solid red;
-}
-
-
-*/
-
-
-
-
 
 
 
@@ -542,12 +530,14 @@ body {
       margin-left: 80px;
       margin-right: 80px;
     }
-  }
 
-
+}
 
 @media (max-width: 768px) {
-    body, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
+    body, .szabalyzat, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
+        font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
+    }
+    #moka{
         font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
     }
 }
