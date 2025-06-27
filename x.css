@@ -542,7 +542,12 @@ body {
       margin-left: 80px;
       margin-right: 80px;
     }
-    body{
-        font-family: "Roboto", sans-serif;
-    }
   }
+
+
+
+@media (max-width: 768px) {
+    body, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
+        font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
+    }
+}
