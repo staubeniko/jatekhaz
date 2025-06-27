@@ -542,8 +542,4 @@ body {
 
 
 
-@media (max-width: 768px) {
-    html, body {
-        overflow-x: hidden; /* hozzáadva: mobilon tilos oldalirányú görgetés */
-    }
-}
+
