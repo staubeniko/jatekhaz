@@ -567,3 +567,17 @@ body {
         display: block;         /* központi igazítás miatt */
     }
 }
+
+
+
+
+/* hozzáadva: fix footer megjelenés galériánál is */
+body {
+  display: flex;               /* teljes oldal flexbox */
+  flex-direction: column;      /* egymás alatt legyenek a blokkok */
+  min-height: 100vh;           /* minimum a teljes képernyő magasság */
+}
+
+.middle {
+  flex: 1;                     /* tartalom tölti ki a maradék helyet */
+}
