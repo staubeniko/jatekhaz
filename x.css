@@ -547,3 +547,23 @@ body {
     }
 }
 
+
+
+@media (max-width: 768px) {
+    .szuli {
+        flex-direction: column; /* hozzáadva: mobilon egymás alatt jelenjenek meg */
+        align-items: center;    /* kép középre igazítása */
+    }
+
+    #szuszu {
+        text-align: justify;    /* hozzáadva: mobilon sorkizárt szöveg */
+        margin-left: 0;         /* ne legyen bal margó mobilon */
+        padding-left: 0;        /* ne legyen bal padding mobilon */
+        width: 90%;             /* egy kicsit beljebb, hogy ne érjen ki a szélére */
+    }
+
+    .szulikep {
+        margin: 10px auto;      /* középre igazítás és kis térköz felül/alul */
+        display: block;         /* központi igazítás miatt */
+    }
+}
