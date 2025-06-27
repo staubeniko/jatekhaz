@@ -534,7 +534,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    body, .szabalyzat, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
+    body, h3, .szabalyzat, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
         font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
     }
     #moka{
