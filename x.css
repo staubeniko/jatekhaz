@@ -569,5 +569,15 @@ body {
 }
 
 
+/* hozzáadva: galéria oldal alsó fix pozíciójához */
+body {
+  display: flex;               /* egész oldal flex layout */
+  flex-direction: column;      /* felső–középső–alsó egymás alatt */
+  min-height: 100vh;           /* teljes nézetmagasság minimum */
+}
+
+.middle {
+  flex: 1;                     /* galéria képrész tölti ki a fennmaradó helyet */
+}
 
 
