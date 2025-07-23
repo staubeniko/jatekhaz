@@ -707,3 +707,23 @@ body {
 
 }
 
+
+
+/* Globálisan tiltsuk le a dőlt betűket mindenre */
+body, h1, h2, h3, p, a, span, li, div, button {
+    font-style: normal !important;
+}
+
+@media screen and (max-width: 768px) {
+    .tablazat {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .oszlop {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
