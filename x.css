@@ -546,6 +546,10 @@ body {
         overflow-x: hidden; /* hozzáadva: mobilon tilos oldalirányú görgetés */
         color: red;
     }
+    .tablazat {
+        flex-direction: column; /* egymás alá kerülnek */
+        gap: 20px; /* kis térköz a két oszlop között */
+    }
 }
 
 
