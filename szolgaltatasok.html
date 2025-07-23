@@ -15,7 +15,7 @@
 
         <div class="menu"> <!--<a href="index.html"></a>-->
             <div class="kezdolap"><a href="index.html" class="bkezd">Kezdőlap</a></div>
-            <div class="szolgaltatasok"><a href="szolgaltatasok.html" class="bkezd">Szolgáltatások</a></div>
+            <div class="szolgaltatasok"><a href="szolgaltatasok.html" class="bkezd">Szolgáltatasok</a></div>
             <div class="galeria"><a href="galeria.html" class="bkezd">Galéria</a></div>
             <div class="elerhetosegx"><a href="elerhetoseg.html" class="bkezd">Kapcsolat</a></div>
             
@@ -26,47 +26,41 @@
         </div>
     </div>
     <div class="second">
-        <button onclick="location.href='#cim'" class="gorg">Játszóház</button>
+        <button onclick="location.href='#jatszohazid'" class="gorg">Játszóház</button>
         <button onclick="location.href='#gorg1'" class="gorg">Szülinap</button>
-        <button onclick="location.href='#gorg2'" class="gorg">Árak</button>
+        <button onclick="location.href='#gorg2'" class="gorg">Szülinapi árak</button>
     </div>
-
-    <div class="kozepe3">
-        <div class="keret">
-            <h1 id="cim">Játszóház</h1>
-            <h2 id="a">A alábbi nyitvatartási idő a nyáriszünet idejére vonatkozik. Előzetes foglalás születésnap esetén szükséges.</h2>
-            <h2 id="nyitva">Nyitvatartási idő:</h2>
-            <div class="nyitva">
-                <div class="ora">13:00-19:00</div>
-                <div class="nap">Hétfő</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">13:00-19:00</div>
-                <div class="nap">Kedd</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">13:00-19:00</div>
-                <div class="nap">Szerda</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">10:00-19:00</div>
-                <div class="nap">Csütörtök</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">10:00-19:00</div>
-                <div class="nap">Péntek</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">10:00-19:00</div>
-                <div class="nap">Szombat</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">10:00-19:00</div>
-                <div class="nap">Vasárnap</div>
-            </div>
-            
+    <div class="container">
+        <h1 id="jatszohazid">Játszóház</h1>
+        <p class="alacim">A alábbi nyitvatartási idő a nyáriszünet idejére vonatkozik.<br>Előzetes foglalás születésnap esetén szükséges.</p>
+    
+        <div class="tablazat">
+          <div class="oszlop bal">
+            <h2><span class="nowrap"><strong>Nyitvatartási idő</strong></span></h2>
+            <ul>
+              <li><span>Hétfő</span><span>13:00–19:00</span></li>
+              <li><span>Kedd</span><span>13:00–19:00</span></li>
+              <li><span>Szerda</span><span>10:00–19:00</span></li>
+              <li><span>Csütörtök</span><span>10:00–19:00</span></li>
+              <li><span>Péntek</span><span>10:00–19:00</span></li>
+              <li><span>Szombat</span><span>10:00–19:00</span></li>
+              <li><span>Vasárnap</span><span>10:00–19:00</span></li>
+            </ul>
+          </div>
+    
+          <div class="oszlop jobb">
+            <h2><span class="nowrap"><strong>Belépőjegy árak</strong></span></h2>
+            <p><strong>Gyermek (2 éves kortól 14 éves korig)</strong></p>
+            <p>2 óra – 3000 Ft (alapjegy)</p>
+            <p><strong>+ minden megkezdett félóra</strong></p>
+            <p>600 Ft</p>
+            <p><strong>Gyermek napijegy</strong></p>
+            <p>5000 Ft / nap</p>
+            <p><strong>Kísérő</strong></p>
+            <p>1000 Ft (időkorlát nélkül)</p>
+          </div>
         </div>
-    </div>
+      </div>
     <div class="kozepe3">
         <div class="keret" id="gorg1">
             <h1 id="cim">Születésnap</h1>
@@ -79,7 +73,8 @@
                     különleges legyen - sok nevetéssel, játékkal
                     és örömteli pillanattal.
                     Szeretettel várunk Téged is - lépj be
-                    hozzánk, és kezdődjön a kaland!</h2>
+                    hozzánk, és kezdődjön a kaland!
+                    </h2>
                 <h2><img src="szulinap.png" class="szulikep"></h2>
             </div>
         </div>
@@ -87,41 +82,56 @@
     </div>
     <div class="kozepe3">
         <div class="keret" id="gorg2">
-            <h1 id="cim">Áraink</h1>
+            <h1 id="cim">Születésnapi áraink</h1>
             <div class="kiscim">
-            <h2 id="kiscim">Játszóház</h2></div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
-            </div>
-            <div class="nyitva">
-                <div class="ora">0-5 éves korig</div>
-                <div class="nap">0000 Ft</div>
+            <h2 id="kiscim">Alap csomag / "Játssz és ünnepelj!"</h2></div>
+            <h2><strong>42.000 Ft</strong></h2>
+            <div>
+                <ul class="xyz">
+                    <li>3 órás belépő (max. 10 gyermek, 2-3 fő kísérő)</li>
+                    <li>szülinapi terem, alap dekorral</li>
+                    <li>tányér, evőeszköz, pohár, szalvéta biztosított</li>
+                    <li>hozható torta (hűtjük, szeleteljük)</li>
+                    <li>ajándék a szülinaposnak (1+1 fő 1 alkalmas belépő)</li>
+                    <li>ajándék minden ünneplő kisgyermeknek</li>
+                    <li>egyszeri rágcsa, üdítő felszolgálás</li>
+                    <li>biztosítjuk a meghívókat</li>
+                </ul>
             </div>
             <div class="kiscim">
-                <h2 id="kiscim">Születésnap</h2></div>
-            <div class="nyitva">
-                <div class="nemtom">megbeszélés alapján?</div>
+            <h2 id="kiscim">Standard csomag / "Szülinapi kaland"</h2></div>
+            <h2><strong>52.000 Ft</strong></h2>
+            <div>
+                <ul class="xyz">
+                    <li>3 órás belépő (max. 10 gyermek, 2-3 fő kísérő)</li>
+                    <li>szülinapi terem, alap dekorral</li>
+                    <li>tányér, evőeszköz, pohár, szalvéta biztosított</li>
+                    <li>hozható torta (hűtjük, szeleteljük)</li>
+                    <li>ajándék a szülinaposnak (1+1 fő <strong>2</strong> alkalmas belépő)</li>
+                    <li>ajándék minden ünneplő kisgyermeknek</li>
+                    <li>egyszeri rágcsa felszolgálás</li>
+                    <li>biztosítjuk a meghívókat</li>
+                    <li><strong>korlátlan üdítő</strong></li>
+                </ul>
+            </div>
+            <div class="kiscim">
+            <h2 id="kiscim">Prémium csomag / "Nagy Pizza Party"</h2></div>
+            <h2><strong>60.000 Ft</strong></h2>
+            <div>
+                <ul class="xyz">
+                    <li>3 órás belépő (max. 10 gyermek, 2-3 fő kísérő)</li>
+                    <li>szülinapi terem, alap dekorral</li>
+                    <li>tányér, evőeszköz, pohár, szalvéta biztosított</li>
+                    <li>hozható torta (hűtjük, szeleteljük)</li>
+                    <li>ajándék a szülinaposnak (1+1 fő <strong>3</strong>alkalmas belépő)</li>
+                    <li>ajándék minden ünneplő kisgyermeknek</li>
+                    <li><strong>korlátlan</strong> rágcsa, üdítő felszolgálás</li>
+                    <li>biztosítjuk a meghívókat</li>
+                    <li><strong>pizza minden gyermeknek</strong> (2-2 szelet)</li>
+                </ul>
+            </div>
+        </div>
+
             </div>
             
         </div>
