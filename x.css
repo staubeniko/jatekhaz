@@ -305,9 +305,7 @@ svg {
 }
 
 
-.kiscim{
-    text-decoration: underline;
-}
+
 
 .nemtom{
     font-family: cursive;
@@ -386,6 +384,7 @@ svg {
     max-width: 100%;
     box-sizing: border-box;
     overflow-wrap: break-word;
+    background-color: rgb(235, 215, 192);
 }
 
 
@@ -570,3 +569,133 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 215, 192);
+    margin: 0;
+    padding: 0;
+    color: #3a2c1a;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(176, 220, 124);
+    border-radius: 12px;
+
+  }
+  
+  h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .alacim {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .tablazat {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+    
+  }
+  
+  .oszlop {
+    flex: 1;
+    background: #d5f1aa;
+    border: transparent;
+    border-radius: 12px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .oszlop h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+  
+  .oszlop ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .oszlop ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .oszlop p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+
+.xyz{
+    text-align: left;
+}
+
+.kiscim{
+    background-color: #d5f1aa;
+    border-radius: 12px;
+}
+
+#kiscim{
+    padding: 9px;
+    margin: auto;
+}
+
+
+#hazirend{
+    color: #4b7a04;
+
+}
+
+#hzr, #hazi{
+    text-align: center;
+}
+
+#hzr{
+    padding-bottom:  30px;
+    padding-top: 0px;
+}
+
+.gombocska{
+    border-radius: 12px;
+    background-color: #d5f1aa;
+    color: #4b7a04;
+    font-family:'Pacifico', cursive;
+    border-color: #4b7a04;
+
+}
