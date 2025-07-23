@@ -704,15 +704,3 @@ body {
 
 
 
-
-
-
-
-
-
-
-.hide-everything > *:not(#rotate-warning) {
-    display: none !important;
-    background-color: rgb(235, 215, 192);
-}
-
