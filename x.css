@@ -533,10 +533,10 @@ body {
 
 @media (max-width: 768px) {
     body, h3, .szabalyzat, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
-        font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
+        font-family: 'Roboto', Arial, sans-serif; /* hozzáadva: mobilon Roboto */
     }
     #moka{
-        font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
+        font-family: 'Roboto', Arial, sans-serif; /* hozzáadva: mobilon Roboto */
     }
 }
 
@@ -544,6 +544,7 @@ body {
 @media (max-width: 768px) {
     html, body {
         overflow-x: hidden; /* hozzáadva: mobilon tilos oldalirányú görgetés */
+        color: red;
     }
 }
 
@@ -700,17 +701,5 @@ body {
     font-family:'Pacifico', cursive;
     border-color: #4b7a04;
 
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    /* Itt írhatsz bármit, ami elfordított mobil nézetben érvényesül */
-    body{
-        font-family:'Roboto', Arial, sans-serif;
-        color: red;
-    }
-    h1{
-        font-family:'Roboto', Arial, sans-serif;
-        color: red; 
-    }
 }
 
