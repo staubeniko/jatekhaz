@@ -705,11 +705,11 @@ body {
 @media screen and (max-width: 768px) and (orientation: landscape) {
     /* Itt írhatsz bármit, ami elfordított mobil nézetben érvényesül */
     body{
-        font-family:'Pacifico', cursive;
+        font-family:'Roboto', Arial, sans-serif;
         color: red;
     }
     h1{
-        font-family:'Pacifico', cursive;
+        font-family:'Roboto', Arial, sans-serif;
         color: red; 
     }
 }
