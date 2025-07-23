@@ -701,3 +701,18 @@ body {
     border-color: #4b7a04;
 
 }
+
+
+
+
+
+
+
+
+
+
+.hide-everything > *:not(#rotate-warning) {
+    display: none !important;
+    background-color: rgb(235, 215, 192);
+}
+
