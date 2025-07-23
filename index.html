@@ -74,6 +74,34 @@
         <h3>Telefon: +36 70 553 3425</h3>
         <h3><a href="hazirend.html"><button class="szabalyzat">HÁZIREND</button></a></h3>
     </div>
+
+<div id="rotate-warning" style="display: none;">
+    <p style="font-size: 24px; color: darkred; text-align: center; margin-top: 40vh;">
+        Kérlek, fordítsd vissza a képernyőt álló helyzetbe!
+    </p>
+</div>
+
+<script>
+    function checkOrientation() {
+        const warning = document.getElementById("rotate-warning");
+        const body = document.body;
+
+        const isMobile = window.innerWidth <= 768;
+        const isLandscape = window.innerWidth > window.innerHeight;
+
+        if (isMobile && isLandscape) {
+            warning.style.display = "block";
+            body.classList.add("hide-everything");
+        } else {
+            warning.style.display = "none";
+            body.classList.remove("hide-everything");
+        }
+    }
+
+    window.addEventListener("resize", checkOrientation);
+    window.addEventListener("load", checkOrientation);
+</script>
+
 </body>
 
 
