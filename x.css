@@ -716,13 +716,25 @@ body, h1, h2, h3, p, a, span, li, div, button {
 
 @media screen and (max-width: 768px) {
     .tablazat {
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 20px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .oszlop {
-        width: 100%;
+        width: 100% !important;
         box-sizing: border-box;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .container {
+        max-width: 100% !important;
+        padding: 10px;
+        margin: 0;
     }
 }
 
