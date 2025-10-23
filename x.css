@@ -10,11 +10,11 @@ html {
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 body, html {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
 }
 
 .first{
@@ -24,7 +24,7 @@ body, html {
 
 .menu {
     width: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     display: flex;   /*!!!!!!!!!!!!!!!!!!!!!!!!*/
     text-align: center;
     justify-content: center;    /*3 gomb emiatt van az oldal közepén*/
@@ -75,7 +75,7 @@ body, html {
     /*font-size: 20px;*/
     font-size: 1.2em;
     color: rgb(2, 101, 2);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     text-decoration: underline;
 }
 
@@ -90,7 +90,7 @@ body, html {
     height: auto;
     padding-top: 20px;
     color: rgb(2, 101, 2);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     text-align: center;
     padding-bottom: 300px;              /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!delete*/
 
@@ -144,7 +144,7 @@ h1{
 
 .alja{
     background-color: rgb(235, 215, 192);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     text-align: center;
     font-size: 10px;
     padding-top: 15px;
@@ -161,7 +161,7 @@ h3{
     margin: 1px;
     padding: 0;
     color: rgb(2, 101, 2);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     word-wrap: break-word;
     overflow-wrap: break-word;
     max-width: 100%;
@@ -173,7 +173,7 @@ h3{
     border: transparent;
     font-size: 10px;
     color: rgb(2, 101, 2);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     text-decoration: underline;
     padding-bottom: 10px;
 
@@ -208,7 +208,7 @@ h3{
     padding: 0px;
     padding-left: 20px;
     color: rgb(2, 101, 2);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     border-radius: 50px;
 }
 
@@ -255,7 +255,7 @@ svg {
 
 .alja2{
     background-color: rgb(205, 238, 164);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     text-align: center;
     font-size: 10px;
     padding-top: 15px;
@@ -284,7 +284,7 @@ svg {
     align-items: center;
     gap: 20px; /* térköz a gyerekek között */
     justify-content: flex-start;
-    font-family: 'Roboto', Arial, sans-serif; /* ha ezt használod globálisan */
+    font-family: 'Pacifico', cursive; /* ha ezt használod globálisan */
 
 
     
@@ -301,18 +301,18 @@ svg {
 
 .alja3{
     background-color: rgb(176, 220, 124);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
 }
 
 
 
 
 .nemtom{
-    font-family:'Roboto', Arial, sans-serif;
+    font-family: cursive;
 }
 
 .kozepe3{
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     color:rgb(2, 101, 2);
     padding: 20px;
     text-align: center;
@@ -368,7 +368,7 @@ svg {
 
 .alja3{
     background-color: rgb(176, 220, 124);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     text-align: center;
     font-size: 10px;
     padding-top: 15px;
@@ -389,7 +389,7 @@ svg {
 
 
 .gorg {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: cursive;
     font-size: 20px;
     color: white;
     background-color: rgb(2, 101, 2);       /* sötétebb zöld háttér */
@@ -528,15 +528,14 @@ body {
       margin-right: 80px;
     }
 
-
 }
 
 @media (max-width: 768px) {
     body, h3, .szabalyzat, html, .menu, .bkezd, .kozepe, .alja, .alja2, .alja3, .elerheto, .kozepe3, .second, .gorg, .elerhetoseg2 {
-        font-family: 'Roboto', Arial, sans-serif; /* hozzáadva: mobilon Roboto */
+        font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
     }
     #moka{
-        font-family: 'Roboto', Arial, sans-serif; /* hozzáadva: mobilon Roboto */
+        font-family: "Roboto", sans-serif; /* hozzáadva: mobilon Roboto */
     }
 }
 
@@ -544,11 +543,9 @@ body {
 @media (max-width: 768px) {
     html, body {
         overflow-x: hidden; /* hozzáadva: mobilon tilos oldalirányú görgetés */
-        color: red;
     }
-    .tablazat {
-        flex-direction: column; /* egymás alá kerülnek */
-        gap: 20px; /* kis térköz a két oszlop között */
+    .keret{
+        max-width: 100%;
     }
 }
 
@@ -608,7 +605,6 @@ body {
     text-align: center;
     background-color: rgb(176, 220, 124);
     border-radius: 12px;
-    color: rgb(2, 101, 2);
 
   }
   
@@ -702,40 +698,104 @@ body {
     border-radius: 12px;
     background-color: #d5f1aa;
     color: #4b7a04;
-    font-family:'Roboto', Arial, sans-serif;
+    font-family:'Pacifico', cursive;
     border-color: #4b7a04;
 
 }
 
 
+/*elforditott*/
 
-/* Globálisan tiltsuk le a dőlt betűket mindenre */
-body, h1, h2, h3, p, a, span, li, div, button {
-    font-style: normal !important;
-}
-
-@media screen and (max-width: 768px) {
-    .tablazat {
-        flex-direction: column !important;
-        gap: 20px;
-        flex-wrap: nowrap;
-        overflow: hidden;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .oszlop {
-        width: 100% !important;
-        box-sizing: border-box;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-    }
-
-    .container {
-        max-width: 100% !important;
-        padding: 10px;
-        margin: 0;
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    /* Itt írhatsz bármit, ami elfordított mobil nézetben érvényesül */
+    body{
+        font-family:'Pacifico', cursive;
     }
 }
 
 
+#newingyen{
+    text-decoration: underline 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kapcsolat-form {
+    background-color: #f4f8ef;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 40px auto; /* automatikus középre igazítás */
+    width: 90%;             /* ne érje el a teljes szélességet */
+}
+
+.kapcsolat-form h2 {
+    margin-bottom: 15px;
+    color: #3b5e2b;
+}
+
+.kapcsolat-form label {
+    font-weight: 600;
+}
+
+.kapcsolat-form input[type="email"],
+.kapcsolat-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c2d5a8;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.kapcsolat-form input[type="email"]:focus,
+.kapcsolat-form textarea:focus {
+    outline: none;
+    border-color: #84b547;
+    box-shadow: 0 0 5px rgba(132,181,71,0.5);
+}
+
+.kapcsolat-form button {
+    background-color: rgb(132, 181, 71);
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kapcsolat-form button:hover {
+    background-color: rgb(110, 153, 58);
+    transform: scale(1.05);
+}
